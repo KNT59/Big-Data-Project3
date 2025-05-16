@@ -104,19 +104,20 @@ def main():
     # show_spark_df(spark_df_preproceesed)
     target_col_preprocessed = 'diagnosis_results'
     # Train a RandomForestClassifier
-    # rf = RandomForestClassifier(
-    #     featuresCol='input_features', 
-    #     labelCol=target_col_preprocessed,
-    #     seed=42 # For reproducibility
-    # )
-    # print("Printing metric results for RandomForestClassifier with cross-validation")
-    # examine_model(spark_df_train_X, rf, target_col_preprocessed, 5)
+    rf = RandomForestClassifier(
+        featuresCol='input_features', 
+        labelCol=target_col_preprocessed,
+        seed=42 # For reproducibility
+    )
+    print("Printing metric results for RandomForestClassifier with cross-validation")
+    examine_model(spark_df_train_X, rf, target_col_preprocessed, 5)
 
     # Train a LogisticRegression Classifier (does not use a seed)
     lr = LogisticRegression(
         featuresCol='input_features', 
         labelCol=target_col_preprocessed,  # Adjust target column name as needed
     )
+    print("Printing metric results for LogisticRegression with cross-validation")
     examine_model(spark_df_train_X, lr, target_col_preprocessed, 5)
 
 
@@ -124,9 +125,9 @@ def main():
     spark_df_test_X = pipeline_fitted.transform(spark_df_test)
     spark_df_test_X = spark_df_test_X.drop(target_col)
 
-    # rf_fitted = rf.fit(spark_df_train_X)
-    # print("Printing metric results for RandomForestClassifier on the test set")
-    # get_metrics(spark_df_test_X, rf_fitted, target_col_preprocessed)
+    rf_fitted = rf.fit(spark_df_train_X)
+    print("Printing metric results for RandomForestClassifier on the test set")
+    get_metrics(spark_df_test_X, rf_fitted, target_col_preprocessed)
 
     lr_fitted = lr.fit(spark_df_train_X)
     print("Printing metric results for LogisticRegression on the test set")
@@ -135,3 +136,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
