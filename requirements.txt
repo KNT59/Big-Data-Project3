@@ -1,0 +1,62 @@
+anaconda-anon-usage @ file:///croot/anaconda-anon-usage_1732732445543/work
+archspec @ file:///croot/archspec_1709217642129/work
+boltons @ file:///work/perseverance-python-buildout/croot/boltons_1698851177130/work
+Bottleneck @ file:///home/conda/feedstock_root/build_artifacts/bottleneck_1729268868751/work
+Brotli @ file:///croot/brotli-split_1714483155106/work
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1734380492396/work/certifi
+cffi @ file:///croot/cffi_1726856441404/work
+charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
+click @ file:///home/conda/feedstock_root/build_artifacts/click_1734858813237/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1733218098505/work
+conda @ file:///home/conda/feedstock_root/build_artifacts/conda_1738241127085/work
+conda-anaconda-telemetry @ file:///croot/conda-anaconda-telemetry_1733258728466/work
+conda-content-trust @ file:///croot/conda-content-trust_1714483159009/work
+conda-libmamba-solver @ file:///croot/conda-libmamba-solver_1727775630457/work/src
+conda-package-handling @ file:///croot/conda-package-handling_1731369017509/work
+conda_package_streaming @ file:///croot/conda-package-streaming_1731366181659/work
+cryptography @ file:///croot/cryptography_1732129644106/work
+distro @ file:///croot/distro_1714488253808/work
+english @ file:///home/conda/feedstock_root/build_artifacts/english_1620640779217/work
+frozendict @ file:///croot/frozendict_1713194832637/work
+idna @ file:///croot/idna_1714398848350/work
+interchange @ file:///home/conda/feedstock_root/build_artifacts/interchange_1634204805395/work
+joblib @ file:///croot/joblib_1718217211762/work
+jsonpatch @ file:///croot/jsonpatch_1714483231291/work
+jsonpointer==2.1
+libmambapy @ file:///croot/mamba-split_1732896306512/work/libmambapy
+menuinst @ file:///croot/menuinst_1731364904452/work
+neo4j==5.28.1
+neobolt @ file:///home/conda/feedstock_root/build_artifacts/neobolt_1695661939060/work
+neotime==1.7.4
+numexpr @ file:///home/conda/feedstock_root/build_artifacts/numexpr_1732612815364/work
+numpy @ file:///croot/numpy_and_numpy_base_1708638617955/work/dist/numpy-1.26.4-cp312-cp312-linux_x86_64.whl#sha256=b8e59fcb10ab071cbeded47aed247ddfa1c902d595848c27f82021340e226134
+packaging @ file:///croot/packaging_1720101850331/work
+pandas @ file:///croot/pandas_1732735089971/work/dist/pandas-2.2.3-cp312-cp312-linux_x86_64.whl#sha256=57b66702d418720ec8483f7c4ec7c08d41815316ad7ce09d5b7bbc34eefcfdfd
+platformdirs @ file:///work/perseverance-python-buildout/croot/platformdirs_1701732573265/work
+pluggy @ file:///croot/pluggy_1733169602837/work
+prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1737453357274/work
+py2neo @ file:///home/conda/feedstock_root/build_artifacts/py2neo_1634208170096/work
+py4j @ file:///home/conda/feedstock_root/build_artifacts/py4j_1660381574436/work
+pyarrow @ file:///croot/pyarrow_1738229418212/work/python
+pycosat @ file:///croot/pycosat_1714510623388/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1736243443484/work
+PySocks @ file:///work/perseverance-python-buildout/croot/pysocks_1698845478203/work
+pyspark @ file:///home/conda/feedstock_root/build_artifacts/pyspark_1734769584384/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1733215673016/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1738317518727/work
+requests @ file:///croot/requests_1730999120400/work
+ruamel.yaml @ file:///croot/ruamel.yaml_1727980156079/work
+ruamel.yaml.clib @ file:///croot/ruamel.yaml.clib_1727769819935/work
+scikit-learn @ file:///croot/scikit-learn_1737988764076/work
+scipy @ file:///croot/scipy_1737122901252/work/dist/scipy-1.15.1-cp312-cp312-linux_x86_64.whl#sha256=3f5c3821b9ba8699dc80b4632c276a12d782c03aa3aea95ba8280840ea7c5418
+setuptools==75.1.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
+threadpoolctl @ file:///croot/threadpoolctl_1719407800858/work
+tqdm @ file:///croot/tqdm_1724853939799/work
+truststore @ file:///work/perseverance-python-buildout/croot/truststore_1701735771625/work
+tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1737541069190/work
+urllib3 @ file:///croot/urllib3_1727769808118/work
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1733231326287/work
+wheel==0.44.0
+zstandard @ file:///croot/zstandard_1731356346222/work
